@@ -12,7 +12,8 @@ DECONZ_OPTS="--auto-connect=1 \
         --dbg-zdp=$DEBUG_ZDP \
         --dbg-otau=$DEBUG_OTAU \
         --http-port=$DECONZ_WEB_PORT \
-        --ws-port=$DECONZ_WS_PORT"
+        --ws-port=$DECONZ_WS_PORT" \
+        --lan-bridgeid=1
 
 if [ "$DECONZ_VNC_MODE" != 0 ]; then
   
